@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~bourbon/app/assets/stylesheets/_bourbon.scss'
+@import 'app/saffron/saffron.scss'
+
+body
+    background-color: darkorange
+
+.btn
+    color: darkturquoise
+    &:hover
+        @include pulsate()
+    &:active
+        @include bounce()

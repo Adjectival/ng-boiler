@@ -8,6 +8,7 @@ body {
 .btn {
     color: ivory;
     background-color: darkturquoise;
+    border-radius: 2rem;
         &:hover {
             @include pulsate();
         }
